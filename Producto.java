@@ -32,7 +32,7 @@ public clases Producto{
 
   public void mostrar(){
     Systen.out.println(
-    this.laboratorio.mostrar())
+    this.getLaboratorio().mostrar())
     Systen.out.println("Rubro: "+this.getRubro());
     Systen.out.println("Descripcion: "+this.getDescripcion());
     Systen.out.println("Precio contado: "+this.precioContado());
